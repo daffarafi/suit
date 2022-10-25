@@ -35,7 +35,7 @@ setTimeout(function () {
 	pilihan.style.display = 'flex';
 }, 500);
 
-let roll = function () {
+const roll = function () {
 	let rolling = ['scissor', 'rock', 'paper'];
 	let a = new Date().getTime();
 	let i = 0;
